@@ -1,0 +1,11 @@
+.buttonWidth, input {
+    width: 200px;
+}
+
+.listHeight {
+    height: 180px;
+}
+
+ol {
+    font-size: 18px;
+}

@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+    crossorigin="anonymous">
+  <link rel="stylesheet" href="styles.css">
+  <title>JS arrays</title>
+</head>
+
+<body>
+
+  <div class="container">
+    <div class="row">
+      <div class="col" id="input">
+        <div class="row">
+
+          <div class="col">
+            <h3>Enter guest to the list:</h3>
+            <form>
+              <div>
+                <input type="text" id="inputField">
+                <button type="reset" name="addToListEnd" class="btn btn-secondary buttonWidth mt-2">Add Guest @
+                  list
+                  end</button>
+                <button type="reset" name="addToListStart" class="btn btn-secondary buttonWidth mt-2 mb-4">Add Guest @
+                  list
+                  start</button>
+              </div>
+            </form>
+          </div>
+
+          <div class="col">
+            <h3>Guests list:</h3>
+            <div class="border-top listHeight">
+              <ol id="output" class="pl-3 mt-2 text-warning"></ol>
+            </div>
+          </div>
+
+          <div class="col">
+            <h3>Edit the list:</h3>
+            <button type="button" name="removeFirst" class="btn btn-outline-secondary buttonWidth mb-2">Remove FIRST</button><br />
+            <button type="button" name="removeLast" class="btn btn-outline-secondary buttonWidth mb-2">Remove LAST</button><br />
+            <button type="button" name="removeList" class="btn btn-outline-secondary buttonWidth mb-2">Clear all the
+              list</button>
+            <button type="button" name="reverse" class="btn btn-outline-secondary buttonWidth mb-2">Reverse</button>
+            <button type="button" name="Sort-a-z" class="btn btn-outline-secondary buttonWidth mb-2">Sort A-Z</button>
+            <button type="button" name="Sort-z-a" class="btn btn-outline-secondary buttonWidth mb-2">Sort Z-A</button>
+            <input id="removeFrom" type="number" name="removeFrom-name" placeholder="Remove From"><br>
+            <input id="removeTo" type="number" name="removeTo-name" placeholder="Remove To">
+            <button type="button" name="Remove-from-to" class="btn btn-outline-secondary buttonWidth">Remove From-To</button>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="script.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
